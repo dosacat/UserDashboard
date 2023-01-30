@@ -1,0 +1,55 @@
+img{
+    width: 25px;
+    height: 25px;
+}
+
+.profile img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+
+table{
+    width: 100%;
+}
+
+th{
+    padding: 10px;
+
+}
+tr:first-child{
+    background-color: rgb(235, 235, 250);
+}
+tr{
+    border: 1px solid hsl(146, 13%, 89%);
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 13px;
+  }
+
+@media only screen and (max-width: 600px) {
+table {
+    width:70vw;
+}
+tr{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+.buttonend{
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+    margin:10px;
+  }
+  
+  .buttonend:hover {
+    background-color: hsl(0, 0%, 71%); /* Purple */
+    color: white;
+  }
+  
