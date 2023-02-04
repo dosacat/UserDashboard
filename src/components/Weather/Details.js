@@ -6,7 +6,7 @@ import {
 import { iconUrlFromCode } from '../services/weatherService.js';
 
 function Details({wea,units}) {
-  console.log(units)
+  
   return (
     <div>
         <div className="flex items-center justify-center py-6 text-white"><p>{`${wea.details}`}</p></div>

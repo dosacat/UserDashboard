@@ -29,7 +29,7 @@ function Forecast() {
   }, [query, units]);
 
   return (
-    <div className="mx-auto max-w-screen-md mt-4 py-5 px-24 py-2 bg-emerald-900 h-fit rounded-xl">
+    <div className="mx-auto max-w-screen-md mt-4 py-5 px-10 py-2 bg-emerald-900 h-fit rounded-xl mt-10">
         <TopButtons setQuery={setQuery}/>
         <Input setQuery={setQuery} units={units} setUnits={setUnits} />
       {weather && (

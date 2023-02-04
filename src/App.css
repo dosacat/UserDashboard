@@ -5,9 +5,13 @@
   align-items: center;
   text-align: center;
   height:100vh;
-  background-color: white;
 }
-
+body{
+  background-color: rgb(224, 238, 232);
+}
+table{
+  background-color: rgb(255, 255, 255);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

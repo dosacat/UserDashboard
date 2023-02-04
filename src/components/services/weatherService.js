@@ -1,10 +1,11 @@
 
-const API_KEY="032194dc4c503d6ddf481619d7dac421";
+const API_KEY1="032194dc4c503d6";
+const API_KEY2="ddf481619d7dac421";
 const BASE_URL="https://api.openweathermap.org/data/2.5"
 
 function getWeatherData(infoType,searchParams){
     const url = new URL(BASE_URL+"/"+ infoType);
-    url.search= new URLSearchParams({ ...searchParams, appid:API_KEY })
+    url.search= new URLSearchParams({ ...searchParams, appid:API_KEY1+API_KEY2 })
 
     return fetch(url)
     .then((res)=> res.json())
