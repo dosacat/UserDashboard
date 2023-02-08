@@ -7,9 +7,9 @@
   height:100vh;
 }
 body{
-  background-color: rgb(224, 238, 232);
+  background-color: rgb(12 74 110);
 }
-table{
+table,.userrow{
   background-color: rgb(255, 255, 255);
 }
 .App-logo {

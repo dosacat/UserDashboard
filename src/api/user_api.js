@@ -61,7 +61,7 @@ const doGetUsers = async () => {
     try {
       await delay(300);
       const result = await getUsers();
-      console.log(result);
+      
       return result;
     } catch (error) {
       await delay(1000)
@@ -87,7 +87,7 @@ const doGetUsers = async () => {
     try {
       await delay(1000)
         const result = await createUser(data);
-        console.log(result);
+        
         return result;
     } catch (error) {
         await delay(1000)
@@ -115,7 +115,7 @@ const doDeleteUser = async(id) => {
     try {
         await delay(1000)
           const result = await deleteUser(id);
-          console.log(result);
+          
           return result;
       } catch (error) {
           await delay(1000)

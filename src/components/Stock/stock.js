@@ -26,7 +26,7 @@ function Stock() {
   },[])
   
   return (
-    <div className='max-w-screen-md mt-4 py-5 px-10 py-2 bg-emerald-900 h-fit rounded-xl mt-10 mx-4'>
+    <div className='max-w-screen-md mt-4 py-5 px-10 py-2 bg-white h-fit rounded-xl mt-10 mx-4'>
         <div>
         
         <Plot
